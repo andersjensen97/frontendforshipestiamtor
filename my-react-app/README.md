@@ -8,7 +8,7 @@ For windowns run this in powershel terminal as adminstrator
 Run in the same powershell terminal
 
 ### `yarn install`
-Then in your editor, open the integrated terminal at my-ract-app location and tun the line then all dependecies should be installed
+Then in your editor, open the integrated terminal at my-ract-app location and run the line then all dependecies should be installed
 
 ### `yarn start`
 Runs the app in the development mode.\
