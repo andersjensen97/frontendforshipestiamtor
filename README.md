@@ -7,6 +7,9 @@ For windowns run this in powershel terminal as adminstrator
 ### `yarn init -2`
 Run in the same powershell terminal
 
+### `IF this fails then run this command in the terminal`
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
 ### `yarn install`
 Then in your editor, open the integrated terminal at my-ract-app location and run the line then all dependecies should be installed
 
