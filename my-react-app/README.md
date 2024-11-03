@@ -4,6 +4,9 @@ Install from https://nodejs.org/en/ unless you have it already node --version Sh
 ### `corepack enable`
 For windowns run this in powershel terminal as adminstrator
 
+### `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
+Run in the powershell terminal and press yes, this allows you to run scripts, this is only for windows pc's
+
 ### `yarn init -2`
 Run in the same powershell terminal
 
