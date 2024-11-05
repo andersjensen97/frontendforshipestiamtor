@@ -1,36 +1,84 @@
 import React, { useEffect, useState } from 'react';
-import { fetchDummyRoutes } from './api';
 
-function App() {
-  const [routes, setRoutes] = useState([]);
-  const [loading, setLoading] = useState(true);
+function getData() {
+  
+  const [Cargo, setCargo] = useState([]);
+  const [Estimate, setEstimate] = useState([]);
+  const [Port, setPort] = useState([]);
+  const [Vessel, setVessel] = useState([]);
 
   useEffect(() => {
-    const getRoutes = async () => {
-      const data = await fetchDummyRoutes();
-      setRoutes(data);
-      setLoading(false);
-    };
-
-    getRoutes();
+    fetch('/localhost/searoutesapi/Cargo')
+    .then((response) => {
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+      return response.json();
+  })
+  .then((data) => {
+      setCargo(data);
+  })
+  .catch((error) => {
+      console.error('There was a problem with the fetch operation:', error);
+  });
   }, []);
 
+  useEffect(() => {
+    fetch('/localhost/searoutesapi/Estimate')
+    .then((response) => {
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+      return response.json();
+  })
+  .then((data) => {
+      setEstimate(data);
+  })
+  .catch((error) => {
+      console.error('There was a problem with the fetch operation:', error);
+  });
+  }, []);
+
+  useEffect(() => {
+    fetch('/localhost/searoutesapi/Port')
+    .then((response) => {
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+      return response.json();
+  })
+  .then((data) => {
+      setPort(data);
+  })
+  .catch((error) => {
+      console.error('There was a problem with the fetch operation:', error);
+  });
+  }, []);
+
+  useEffect(() => {
+    fetch('/localhost/searoutesapi/Vessel')
+    .then((response) => {
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+      return response.json();
+  })
+  .then((data) => {
+      setVessel(data);
+  })
+  .catch((error) => {
+      console.error('There was a problem with the fetch operation:', error);
+  });
+  }, []);
+}
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
         <h1>Routes</h1>
-        {loading ? (
-          <p>Loading...</p>
-        ) : (
           <ul>
-            {routes.map(route => (
-              <li key={route.id}>{route.name}</li>
-            ))}
+          {Cargo.map((Cargo) => (<li key={Cargo.id}>{Cargo.name}</li>))}
           </ul>
-        )}
-      </header>
+        
+      
     </div>
   );
-}
-
-export default App;
+export default getData;
