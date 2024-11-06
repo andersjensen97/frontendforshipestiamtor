@@ -1,7 +1,16 @@
-import React from 'react';
-import { TextField, Box, Typography } from '@mui/material';
+import React, { useState, useEffect } from 'react';
+import { Box, TextField, Typography, Select, MenuItem } from '@mui/material';
+import {useCargoData, useEstimateData, usePortData, useVesselData} from './/fetchdata/api.js'
 
 const EstimateForm = () => {
+
+    const { vessel, error } = useVesselData();
+    const [selectedVessel, setSelectedVessel] = useState('');
+
+    const handleVesselChange = (event) => {
+        setSelectedVessel(event.target.value);
+    };
+
   return (
     <div className="flex flex-col items-center p-8 bg-gray-100 min-h-screen">
       {/* Main container */}
@@ -14,10 +23,17 @@ const EstimateForm = () => {
             <div className="grid grid-cols-3 gap-4">
               <TextField label="Departure" variant="outlined" size="small" fullWidth />
               <TextField label="Arrival" variant="outlined" size="small" fullWidth />
-              <TextField label="Type of vessel" variant="outlined" size="small" fullWidth />
+               {/* Vessel Type Dropdown */}
+               <Select value={selectedVessel}onChange={handleVesselChange}displayEmpty fullWidth variant="outlined" size="small">
+                  <MenuItem value="" disabled>
+                    Select Vessel Type
+                  </MenuItem>
+                    {vessel.map((v) => (
+                      <MenuItem key={v.id} value={v.name}>{v.name}</MenuItem>
+                    ))}
+                </Select>
               <TextField label="Type of fuel" variant="outlined" size="small" fullWidth />
               <TextField label="Weight" variant="outlined" size="small" fullWidth />
-              <div />
             </div>
           </Box>
 
