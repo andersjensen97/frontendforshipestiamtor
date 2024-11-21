@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of UniqueArgs.java",
+    "compileArgs": ["UniqueArgs.java"],
+    "ifFailedSkipRest": true
+}

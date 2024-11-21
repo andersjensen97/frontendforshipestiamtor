@@ -1,0 +1,40 @@
+'Monster' implements 'getDescription()': true
+'Monster' implements 'getHealth()': true
+'Monster' implements 'heal(...)': true
+'Monster' implements 'hit(...)': true
+'Monster' implements 'burn(...)': true
+'Monster' implements 'isDead()': true
+'Monster' implements 'getSymbol()': true
+
+'Wumpus' implements 'getDescription()': false (the method is inherited)
+'Wumpus' implements 'getHealth()': false (the method is inherited)
+'Wumpus' implements 'heal(...)': false (the method is inherited)
+'Wumpus' implements 'hit(...)': false (the method is inherited)
+'Wumpus' implements 'burn(...)': false (the method is inherited)
+'Wumpus' implements 'isDead()': false (the method is inherited)
+'Wumpus' implements 'getSymbol()': false (the method is inherited)
+
+'Owlbear' implements 'getDescription()': false (the method is inherited)
+'Owlbear' implements 'getHealth()': false (the method is inherited)
+'Owlbear' implements 'heal(...)': false (the method is inherited)
+'Owlbear' implements 'hit(...)': false (the method is inherited)
+'Owlbear' implements 'burn(...)': false (the method is inherited)
+'Owlbear' implements 'isDead()': false (the method is inherited)
+'Owlbear' implements 'getSymbol()': false (the method is inherited)
+
+'Demogorgon' implements 'getDescription()': false (the method is inherited)
+'Demogorgon' implements 'getHealth()': false (the method is inherited)
+'Demogorgon' implements 'heal(...)': false (the method is inherited)
+'Demogorgon' implements 'hit(...)': false (the method is inherited)
+'Demogorgon' implements 'burn(...)': false (the method is inherited)
+'Demogorgon' implements 'isDead()': false (the method is inherited)
+'Demogorgon' implements 'getSymbol()': false (the method is inherited)
+
+'Thing' implements 'getDescription()': false (the method is inherited)
+'Thing' implements 'getHealth()': false (the method is inherited)
+'Thing' implements 'heal(...)': false (the method is inherited)
+'Thing' implements 'hit(...)': false (the method is inherited)
+'Thing' implements 'burn(...)': false (the method is inherited)
+'Thing' implements 'isDead()': false (the method is inherited)
+'Thing' implements 'getSymbol()': false (the method is inherited)
+

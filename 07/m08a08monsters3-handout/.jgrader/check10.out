@@ -1,0 +1,28 @@
+Row 1, column 1: Snotsnout (wumpus; health: 20)
+Row 4, column 3: Nightclaw (owlbear; health: 59)
+Row 6, column 5: Chaosbringer (demogorgon; health: 200)
+Player won? false
+
+Hitting the monsters...
+Row 1, column 1: Snotsnout (wumpus; health: 0)
+Row 4, column 3: Nightclaw (owlbear; health: 9)
+Row 6, column 5: Chaosbringer (demogorgon; health: 100)
+Player won? false
+
+Burning the monsters...
+Row 1, column 1: Snotsnout (wumpus; health: 0)
+Row 4, column 3: Nightclaw (owlbear; health: 0)
+Row 6, column 5: Chaosbringer (demogorgon; health: 50)
+Player won? false
+
+Hitting the monster...
+Row 1, column 1: Snotsnout (wumpus; health: 0)
+Row 4, column 3: Nightclaw (owlbear; health: 0)
+Row 6, column 5: Chaosbringer (demogorgon; health: 0)
+Player won? true
+
+Healing the monster...
+Row 1, column 1: Snotsnout (wumpus; health: 0)
+Row 4, column 3: Nightclaw (owlbear; health: 0)
+Row 6, column 5: Chaosbringer (demogorgon; health: 200)
+Player won? false

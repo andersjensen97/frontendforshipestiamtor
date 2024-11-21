@@ -1,0 +1,4 @@
+# These settings override default autograde settings for the course
+general:
+  display_name: 'Matrix multiplication' # Mandatory
+  handin_filename: 'Matrix.java' # Mandatory

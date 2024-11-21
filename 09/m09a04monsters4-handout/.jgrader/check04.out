@@ -1,0 +1,43 @@
+Monsters:
+    - Horrorface (wumpus; health: 20)
+    - Thunderscream (owlbear; health: 59)
+    - Slagstep (thing; health: 30)
+    - Wispsoul (demogorgon; health: 200)
+    - Umbraface (owlbear; health: 59)
+    - Chaosscreamer (wumpus; health: 20)
+    - Vileling (thing; health: 30)
+    - Emberteeth (thing; health: 30)
+    - Toxinpest (owlbear; health: 59)
+Hitting each monster...
+Monsters now:
+    - Horrorface (wumpus; health: 10)
+    - Thunderscream (owlbear; health: 54)
+    - Slagstep (thing; health: 20)
+    - Wispsoul (demogorgon; health: 190)
+    - Umbraface (owlbear; health: 54)
+    - Chaosscreamer (wumpus; health: 10)
+    - Vileling (thing; health: 20)
+    - Emberteeth (thing; health: 20)
+    - Toxinpest (owlbear; health: 54)
+Healing each monster...
+Monsters now:
+    - Horrorface (wumpus; health: 12)
+    - Thunderscream (owlbear; health: 56)
+    - Slagstep (thing; health: 22)
+    - Wispsoul (demogorgon; health: 192)
+    - Umbraface (owlbear; health: 56)
+    - Chaosscreamer (wumpus; health: 12)
+    - Vileling (thing; health: 22)
+    - Emberteeth (thing; health: 22)
+    - Toxinpest (owlbear; health: 56)
+Burning each monster...
+Monsters now:
+    - Horrorface (wumpus; health: 0) - DEAD!
+    - Thunderscream (owlbear; health: 41)
+    - Slagstep (thing; health: 0) - DEAD!
+    - Wispsoul (demogorgon; health: 185)
+    - Umbraface (owlbear; health: 41)
+    - Chaosscreamer (wumpus; health: 0) - DEAD!
+    - Vileling (thing; health: 0) - DEAD!
+    - Emberteeth (thing; health: 0) - DEAD!
+    - Toxinpest (owlbear; health: 41)

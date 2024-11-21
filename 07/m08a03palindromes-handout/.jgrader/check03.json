@@ -1,0 +1,4 @@
+{
+    "name": "Test 3",
+    "runArgs": ["Palindromes", "rotator", "letter", "kayak", "canoe", "abba"]
+}

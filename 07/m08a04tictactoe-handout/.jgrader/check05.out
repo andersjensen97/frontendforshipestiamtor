@@ -1,0 +1,50 @@
+Grid of size 1x1:
++-+
+| |
++-+
+Is there a winner? No
+
+Grid of size 2x2:
++-+-+
+|O|X|
++-+-+
+| | |
++-+-+
+Is there a winner? No
+
+Grid of size 3x3:
++-+-+-+
+| |O| |
++-+-+-+
+|X|O|X|
++-+-+-+
+| |O| |
++-+-+-+
+Is there a winner? Yes
+
+Grid of size 4x4:
++-+-+-+-+
+| |X| |O|
++-+-+-+-+
+| |O| | |
++-+-+-+-+
+| |O| | |
++-+-+-+-+
+| | |O| |
++-+-+-+-+
+Is there a winner? No
+
+Grid of size 5x5:
++-+-+-+-+-+
+|X|X|X|X|X|
++-+-+-+-+-+
+| | | | | |
++-+-+-+-+-+
+| | | | |O|
++-+-+-+-+-+
+|X|X| |X| |
++-+-+-+-+-+
+| |X| |O|X|
++-+-+-+-+-+
+Is there a winner? Yes
+

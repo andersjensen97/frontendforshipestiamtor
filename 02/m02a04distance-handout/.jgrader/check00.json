@@ -1,0 +1,5 @@
+{
+    "name": "Compilation",
+    "compileArgs": ["Distance.java"],
+    "ifFailedSkipRest": true
+}

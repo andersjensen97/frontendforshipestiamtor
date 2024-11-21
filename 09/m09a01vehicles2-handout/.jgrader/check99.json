@@ -1,0 +1,5 @@
+{
+    "name": "Test program Test99.java (structure of interfaces & classes)",
+    "compileArgs": ["Test99.java"],
+    "runArgs": ["Test99"]
+}

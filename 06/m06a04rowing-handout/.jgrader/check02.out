@@ -1,0 +1,25 @@
+Newly-created boat:
+<Empty seat>
+<Empty seat>
+<Empty seat>
+
+Boat with a few members sitting in:
+Bjarne Balling (age: 19)
+Frederik Foss (age: 18)
+Mette Madsen (age: 23)
+Is the boat full?  Yes.
+
+Newly-created boat:
+<Empty seat>
+<Empty seat>
+<Empty seat>
+<Empty seat>
+<Empty seat>
+
+Boat with a few members sitting in:
+Bjarne Balling (age: 19)
+<Empty seat>
+Frederik Foss (age: 18)
+<Empty seat>
+Mette Madsen (age: 23)
+Is the boat full?  No.

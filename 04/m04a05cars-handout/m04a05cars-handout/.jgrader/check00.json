@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Car.java",
+    "compileArgs": ["Car.java"],
+    "ifFailedSkipRest": true
+}

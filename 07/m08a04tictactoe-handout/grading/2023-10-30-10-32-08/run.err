@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "<parameter1>[<local1>][<local4>]" is null
+	at SuperTicTacToe.hasWinner(SuperTicTacToe.java:20)
+	at Test06.main(Test06.java:13)

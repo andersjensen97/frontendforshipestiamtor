@@ -1,0 +1,7 @@
+'10:25 to Aarhus' leaves before '9:33 to Roskilde': false
+'10:25 to Aarhus' leaves before '9:55 to Aalborg': false
+'9:55 to Aalborg' leaves before '10:25 to Aarhus': true
+'9:33 to Roskilde' leaves before '9:55 to Aalborg': true
+'9:55 to Aalborg' leaves before '9:33 to Roskilde': false
+'10:25 to Aarhus' leaves before '13:45 to Odense': true
+'10:25 to Aarhus' leaves before '17:22 to Esbjerg': true

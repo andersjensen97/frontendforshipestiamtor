@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Test program Test07.java&rdquo;</title>
+    <style>
+      div#input, div#args {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#input .noinput:after, div#args .noargs:after {
+        content: "(No input)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Test program Test07.java&rdquo;</h1>
+    <p>
+      <em>2023-10-08 21:06:49</em>
+    </p>
+    <h2>Arguments passed to Java for running the program</h2>
+    <div id="args">
+      <span class="arg">Test07</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Newly-created boat with one member:</td>
+                <th class="lineno">1</th><td class="equal">Newly-created boat with one member:</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">&lt;Empty seat&gt;</td>
+                <th class="lineno">2</th><td class="equal">&lt;Empty seat&gt;</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">Bjarne Balling (age: 19)</td>
+                <th class="lineno">3</th><td class="equal">Bjarne Balling (age: 19)</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">&lt;Empty seat&gt;</td>
+                <th class="lineno">4</th><td class="equal">&lt;Empty seat&gt;</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig">&lt;Empty seat&gt;</td>
+                <th class="lineno">5</th><td class="equal">&lt;Empty seat&gt;</td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig">&lt;Empty seat&gt;</td>
+                <th class="lineno">6</th><td class="equal">&lt;Empty seat&gt;</td>
+              </tr>
+              <tr>
+                <th class="lineno">7</th><td class="orig"></td>
+                <th class="lineno">7</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">8</th><td class="orig">Assigning a member to the boat: Bjarne Balling (age: 19)...</td>
+                <th class="lineno">8</th><td class="equal">Assigning a member to the boat: Bjarne Balling (age: 19)...</td>
+              </tr>
+              <tr>
+                <th class="lineno">9</th><td class="orig">    - Failed: Bjarne Balling (age: 19) is already on the boat</td>
+                <th class="lineno">9</th><td class="equal">    - Failed: Bjarne Balling (age: 19) is already on the boat</td>
+              </tr>
+              <tr>
+                <th class="lineno">10</th><td class="orig">Assigning a member to the boat: Frederik Foss (age: 18)...</td>
+                <th class="lineno">10</th><td class="equal">Assigning a member to the boat: Frederik Foss (age: 18)...</td>
+              </tr>
+              <tr>
+                <th class="lineno">11</th><td class="orig">    - Succeeded</td>
+                <th class="lineno">11</th><td class="equal">    - Succeeded</td>
+              </tr>
+              <tr>
+                <th class="lineno">12</th><td class="orig">Assigning a member to the boat: Mette Madsen (age: 23)...</td>
+                <th class="lineno">12</th><td class="equal">Assigning a member to the boat: Mette Madsen (age: 23)...</td>
+              </tr>
+              <tr>
+                <th class="lineno">13</th><td class="orig">    - Succeeded</td>
+                <th class="lineno">13</th><td class="equal">    - Succeeded</td>
+              </tr>
+              <tr>
+                <th class="lineno">14</th><td class="orig"></td>
+                <th class="lineno">14</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">15</th><td class="orig">Boat with a few members sitting in:</td>
+                <th class="lineno">15</th><td class="equal">Boat with a few members sitting in:</td>
+              </tr>
+              <tr>
+                <th class="lineno">16</th><td class="orig">Frederik Foss (age: 18)</td>
+                <th class="lineno">16</th><td class="equal">Frederik Foss (age: 18)</td>
+              </tr>
+              <tr>
+                <th class="lineno">17</th><td class="orig">Bjarne Balling (age: 19)</td>
+                <th class="lineno">17</th><td class="equal">Bjarne Balling (age: 19)</td>
+              </tr>
+              <tr>
+                <th class="lineno">18</th><td class="orig">Mette Madsen (age: 23)</td>
+                <th class="lineno">18</th><td class="equal">Mette Madsen (age: 23)</td>
+              </tr>
+              <tr>
+                <th class="lineno">19</th><td class="orig">&lt;Empty seat&gt;</td>
+                <th class="lineno">19</th><td class="equal">&lt;Empty seat&gt;</td>
+              </tr>
+              <tr>
+                <th class="lineno">20</th><td class="orig">&lt;Empty seat&gt;</td>
+                <th class="lineno">20</th><td class="equal">&lt;Empty seat&gt;</td>
+              </tr>
+
+      </tbody>
+    </table>
+
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+    "name": "Compilation",
+    "compileArgs": ["AnimalSounds.java"],
+    "ifFailedSkipRest": true
+}

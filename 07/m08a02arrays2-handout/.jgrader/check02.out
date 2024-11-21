@@ -1,0 +1,8 @@
+Array 1: [1, 2, 3, 4, 5]
+Array 2: [1, 2, 3, 4, 5]
+Are the arrays equal? Yes
+
+Modifying array 1...
+Array 1: [1, 2, 3, 999, 5]
+Array 2: [1, 2, 3, 4, 5]
+Are the arrays equal? No

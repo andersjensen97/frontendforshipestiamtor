@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Monster.java",
+    "compileArgs": ["Monster.java"],
+    "ifFailedSkipRest": true
+}

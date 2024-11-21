@@ -1,0 +1,4 @@
+# These settings override default autograde settings for the course
+general:
+  display_name: 'Cinema' # Mandatory
+  handin_filename: 'Cinema.java' # Mandatory

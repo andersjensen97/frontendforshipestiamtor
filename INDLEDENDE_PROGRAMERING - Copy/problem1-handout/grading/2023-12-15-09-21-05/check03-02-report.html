@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Water temperatures - Task 3 - test 2&rdquo;</title>
+    <style>
+      div#compilationArgs, div#compilationOutput, div#input, div#args, div#stderr {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#compilationOutput .noCompilationOutput:after, div#input .noinput:after, div#args .noargs:after, div#errors .noerrors:after, div#stderr .noerrors:after {
+        content: "(None)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      div.hasStdErr {
+        background: yellow;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div.hasStdErr h2 {
+        margin-top: -0.5em;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Water temperatures - Task 3 - test 2&rdquo;</h1>
+    <p>
+      <em>2023-12-15 09:21:07</em>
+    </p>
+
+    Overall result:
+    <strong style="background-color: lightcoral; padding: 0.25em;">FAILED</strong>
+
+    <h2>Arguments passed to Java for running the program (main class name and command-line arguments)</h2>
+    <div id="args">
+      <span class="arg">WaterTemps</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      average,drops<br>
+      1.0<br>
+      2.2<br>
+      1.8<br>
+      2.0<br>
+      -1.4008<br>
+      -1.6<br>
+      -1.2<br>
+      -1.6<br>
+      -2<br>
+      -2.2<br>
+      -2.0008<br>
+      -2<br>
+      -1.8<br>
+      -1.4<br>
+      -1.6<br>
+      -1
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig"><span class="expected">A</span>v<span class="expected">er</span>a<span class="expected">ge</span> <span class="expected">tem</span>perat<span class="expected">ure</span>: <span class="expected">-0.8001</span></td>
+                <th class="lineno">1</th><td class="different"><span class="produced">In</span>va<span class="produced">lid</span> <span class="produced">o</span>perat<span class="produced">ion</span>: <span class="produced">av</span>er<span class="produced">age,dr</span>o<span class="produced">ps</span></td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig"><span class="expected">Numb</span>er<span class="expected"> </span>o<span class="expected">f</span> <span class="expected">tem</span>perat<span class="expected">ure dr</span>o<span class="expected">ps</span>: <span class="expected">7</span></td>
+                <th class="lineno">2</th><td class="different"><span class="produced">Invalid</span> <span class="produced">o</span>perat<span class="produced">i</span>o<span class="produced">n</span>: <span class="produced">1.0</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">3</th><td class="different"><span class="produced">Invalid operation: 2.2</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">4</th><td class="different"><span class="produced">Invalid operation: 1.8</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">5</th><td class="different"><span class="produced">Invalid operation: 2.0</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">6</th><td class="different"><span class="produced">Invalid operation: -1.4008</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">7</th><td class="different"><span class="produced">Invalid operation: -1.6</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">8</th><td class="different"><span class="produced">Invalid operation: -1.2</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">9</th><td class="different"><span class="produced">Invalid operation: -1.6</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">10</th><td class="different"><span class="produced">Invalid operation: -2</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">11</th><td class="different"><span class="produced">Invalid operation: -2.2</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">12</th><td class="different"><span class="produced">Invalid operation: -2.0008</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">13</th><td class="different"><span class="produced">Invalid operation: -2</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">14</th><td class="different"><span class="produced">Invalid operation: -1.8</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">15</th><td class="different"><span class="produced">Invalid operation: -1.4</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">16</th><td class="different"><span class="produced">Invalid operation: -1.6</span></td>
+              </tr>
+              <tr>
+                <th class="lineno"></th><td class="empty"></td>
+                <th class="lineno">17</th><td class="different"><span class="produced">Invalid operation: -1</span></td>
+              </tr>
+
+      </tbody>
+    </table>
+
+    <div class="">
+      <h2>Warnings and error messages produced during the program execution</h2>
+
+      <div id="stderr">
+        <span class="noerrors"></span>
+      </div>
+    </div>
+  </body>
+</html>

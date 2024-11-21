@@ -1,0 +1,4 @@
+# These settings override default autograde settings for the course
+general:
+  display_name: 'String characters repetition' # Mandatory
+  handin_filename: 'Ssttrriinngg.java' # Mandatory

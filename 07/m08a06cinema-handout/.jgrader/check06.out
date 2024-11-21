@@ -1,0 +1,32 @@
+Number of rows: 5
+ - Seats on row 0: 8 (8 available)
+ - Seats on row 1: 7 (7 available)
+ - Seats on row 2: 8 (8 available)
+ - Seats on row 3: 7 (7 available)
+ - Seats on row 4: 8 (8 available)
+Total number of seats: 38
+
+Seats map:
+........
+.......
+........
+.......
+........
+
+Total number of available seats: 38
+
+Booking some seats...
+
+Seats map:
+X.......
+.......
+...XXX..
+.....X.
+........
+
+Total number of available seats: 33
+ - Seats on row 0: 8 (7 available)
+ - Seats on row 1: 7 (7 available)
+ - Seats on row 2: 8 (5 available)
+ - Seats on row 3: 7 (6 available)
+ - Seats on row 4: 8 (8 available)

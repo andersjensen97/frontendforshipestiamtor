@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of SuperTicTacToe.java",
+    "compileArgs": ["SuperTicTacToe.java"],
+    "ifFailedSkipRest": true
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of GameUtils.java",
+    "compileArgs": ["GameUtils.java"],
+    "ifFailedSkipRest": true
+}

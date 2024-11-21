@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Test program Test03.java&rdquo;</title>
+    <style>
+      div#input, div#args {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#input .noinput:after, div#args .noargs:after {
+        content: "(No input)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Test program Test03.java&rdquo;</h1>
+    <p>
+      <em>2023-10-05 12:59:42</em>
+    </p>
+    <h2>Arguments passed to Java for running the program</h2>
+    <div id="args">
+      <span class="arg">Test03</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Array 1:</td>
+                <th class="lineno">1</th><td class="equal">Array 1:</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">[4, 1, 2, 2, 4, 1, 2, 3, 3, 5]</td>
+                <th class="lineno">2</th><td class="equal">[4, 1, 2, 2, 4, 1, 2, 3, 3, 5]</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">Array 2:</td>
+                <th class="lineno">3</th><td class="equal">Array 2:</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">[4, 1, 2, 5]</td>
+                <th class="lineno">4</th><td class="equal">[4, 1, 2, 5]</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig">Does Array 1 contain the values of Array 2?</td>
+                <th class="lineno">5</th><td class="equal">Does Array 1 contain the values of Array 2?</td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig"><span class="expected">Yes</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+
+      </tbody>
+    </table>
+
+  </body>
+</html>

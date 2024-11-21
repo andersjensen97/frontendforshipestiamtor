@@ -1,0 +1,11 @@
+UniqueArgs.java:3: error: cannot find symbol
+        Set<String> uniqueArgs = new HashSet<>();
+        ^
+  symbol:   class Set
+  location: class UniqueArgs
+UniqueArgs.java:3: error: cannot find symbol
+        Set<String> uniqueArgs = new HashSet<>();
+                                     ^
+  symbol:   class HashSet
+  location: class UniqueArgs
+2 errors

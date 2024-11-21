@@ -1,0 +1,38 @@
+Row 1, column 1: Snotsnout (wumpus; health: 20)
+Row 2, column 4: Voidsoul (thing; health: 30)
+Row 4, column 3: Nightclaw (owlbear; health: 59)
+Row 6, column 5: Chaosbringer (demogorgon; health: 200)
+Row 7, column 0: Krashos (beholder; health: 70)
+Player won? false
+
+Hitting the monsters...
+Row 1, column 1: Snotsnout (wumpus; health: 10)
+Row 2, column 4: Voidsoul (thing; health: 20)
+Row 4, column 3: Nightclaw (owlbear; health: 54)
+Row 6, column 5: Chaosbringer (demogorgon; health: 190)
+Row 7, column 0: Krashos (beholder; health: 60)
+Player won? false
+
+Burning the monsters...
+Row 1, column 1: Snotsnout (wumpus; health: 0)
+Row 2, column 4: Voidsoul (thing; health: 0)
+Row 4, column 3: Nightclaw (owlbear; health: 24)
+Row 6, column 5: Chaosbringer (demogorgon; health: 175)
+Row 7, column 0: Krashos (beholder; health: 0)
+Player won? false
+
+Hitting the monsters...
+Row 1, column 1: Snotsnout (wumpus; health: 0)
+Row 2, column 4: Voidsoul (thing; health: 0)
+Row 4, column 3: Nightclaw (owlbear; health: 0)
+Row 6, column 5: Chaosbringer (demogorgon; health: 0)
+Row 7, column 0: Krashos (beholder; health: 0)
+Player won? true
+
+Healing the monsters...
+Row 1, column 1: Snotsnout (wumpus; health: 0)
+Row 2, column 4: Voidsoul (thing; health: 30)
+Row 4, column 3: Nightclaw (owlbear; health: 0)
+Row 6, column 5: Chaosbringer (demogorgon; health: 0)
+Row 7, column 0: Krashos (beholder; health: 70)
+Player won? false

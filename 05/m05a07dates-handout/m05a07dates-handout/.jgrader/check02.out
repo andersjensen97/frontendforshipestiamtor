@@ -1,0 +1,9 @@
+Is Date(2000, 1, 1) valid? true
+Is Date(2001, 6, 19) valid? true
+Is Date(2002, 20, 20) valid? false
+Is Date(2003, 3, 0) valid? false
+Is Date(2004, 2, 29) valid? true
+Is Date(2005, 2, 29) valid? false
+Is Date(2006, 6, 31) valid? false
+Is Date(2007, 0, 0) valid? false
+Is Date(2008, 10, 50) valid? false

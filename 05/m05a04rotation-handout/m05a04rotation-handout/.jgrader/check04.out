@@ -1,0 +1,4 @@
+Initial array:
+[5, 1, 2, 3, 4]
+Array rotated by 1 position to the left:
+[1, 2, 3, 4, 5]

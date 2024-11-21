@@ -1,0 +1,4 @@
+UniqueArgs.java:1: error: class Matrix is public, should be declared in a file named Matrix.java
+public class Matrix {
+       ^
+1 error

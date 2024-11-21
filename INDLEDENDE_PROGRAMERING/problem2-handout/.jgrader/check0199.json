@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of TestUtils2.java",
+    "compileArgs": ["TestUtils2.java"],
+    "ifFailedSkipRest": true
+}

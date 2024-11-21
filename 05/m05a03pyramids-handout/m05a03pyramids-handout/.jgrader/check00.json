@@ -1,0 +1,5 @@
+{
+    "name": "Compilation",
+    "compileArgs": ["Pyramid.java"],
+    "ifFailedSkipRest": true
+}

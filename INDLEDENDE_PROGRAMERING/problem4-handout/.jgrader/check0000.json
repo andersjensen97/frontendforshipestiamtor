@@ -1,0 +1,5 @@
+{
+    "name": "Compilation",
+    "compileArgs": ["Movie.java"],
+    "ifFailedSkipRest": true
+}

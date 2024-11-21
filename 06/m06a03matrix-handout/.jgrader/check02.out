@@ -1,0 +1,14 @@
+Matrix 'a':
+Dimensions: 1 x 2
+[ 1.0 2.0 ]
+
+Matrix 'b':
+Dimensions: 2 x 1
+[ 3.0 ]
+[ 4.0 ]
+
+Multiplying 'a' and 'b'...
+
+Result of the multiplication:
+Dimensions: 1 x 1
+[ 11.0 ]

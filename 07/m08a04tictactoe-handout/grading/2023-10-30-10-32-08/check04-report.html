@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Test program Test04.java&rdquo;</title>
+    <style>
+      div#input, div#args {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#input .noinput:after, div#args .noargs:after, div#errors .noerrors:after {
+        content: "(None)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Test program Test04.java&rdquo;</h1>
+    <p>
+      <em>2023-10-30 10:32:12</em>
+    </p>
+    <h2>Arguments passed to Java for running the program</h2>
+    <div id="args">
+      <span class="arg">Test04</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Grid of size 1x1:</td>
+                <th class="lineno">1</th><td class="equal">Grid of size 1x1:</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">+-+</td>
+                <th class="lineno">2</th><td class="equal">+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">| |</td>
+                <th class="lineno">3</th><td class="equal">| |</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">+-+</td>
+                <th class="lineno">4</th><td class="equal">+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig">Is there a winner? No</td>
+                <th class="lineno">5</th><td class="equal">Is there a winner? No</td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig"></td>
+                <th class="lineno">6</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">7</th><td class="orig">Grid of size 2x2:</td>
+                <th class="lineno">7</th><td class="equal">Grid of size 2x2:</td>
+              </tr>
+              <tr>
+                <th class="lineno">8</th><td class="orig">+-+-+</td>
+                <th class="lineno">8</th><td class="equal">+-+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">9</th><td class="orig">| |X|</td>
+                <th class="lineno">9</th><td class="equal">| |X|</td>
+              </tr>
+              <tr>
+                <th class="lineno">10</th><td class="orig">+-+-+</td>
+                <th class="lineno">10</th><td class="equal">+-+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">11</th><td class="orig">| |X|</td>
+                <th class="lineno">11</th><td class="equal">| |X|</td>
+              </tr>
+              <tr>
+                <th class="lineno">12</th><td class="orig">+-+-+</td>
+                <th class="lineno">12</th><td class="equal">+-+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">13</th><td class="orig">Is there a winner? Yes</td>
+                <th class="lineno">13</th><td class="equal">Is there a winner? Yes</td>
+              </tr>
+              <tr>
+                <th class="lineno">14</th><td class="orig"></td>
+                <th class="lineno">14</th><td class="equal"></td>
+              </tr>
+              <tr>
+                <th class="lineno">15</th><td class="orig">Grid of size 3x3:</td>
+                <th class="lineno">15</th><td class="equal">Grid of size 3x3:</td>
+              </tr>
+              <tr>
+                <th class="lineno">16</th><td class="orig">+-+-+-+</td>
+                <th class="lineno">16</th><td class="equal">+-+-+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">17</th><td class="orig">|O|O| |</td>
+                <th class="lineno">17</th><td class="equal">|O|O| |</td>
+              </tr>
+              <tr>
+                <th class="lineno">18</th><td class="orig">+-+-+-+</td>
+                <th class="lineno">18</th><td class="equal">+-+-+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">19</th><td class="orig">| | | |</td>
+                <th class="lineno">19</th><td class="equal">| | | |</td>
+              </tr>
+              <tr>
+                <th class="lineno">20</th><td class="orig">+-+-+-+</td>
+                <th class="lineno">20</th><td class="equal">+-+-+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">21</th><td class="orig">| |O|O|</td>
+                <th class="lineno">21</th><td class="equal">| |O|O|</td>
+              </tr>
+              <tr>
+                <th class="lineno">22</th><td class="orig">+-+-+-+</td>
+                <th class="lineno">22</th><td class="equal">+-+-+-+</td>
+              </tr>
+              <tr>
+                <th class="lineno">23</th><td class="orig">Is there a winner? <span class="expected">No</span></td>
+                <th class="lineno">23</th><td class="different">Is there a winner? </td>
+              </tr>
+              <tr>
+                <th class="lineno">24</th><td class="orig"><span class="expected"></span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">25</th><td class="orig"><span class="expected">Grid of size 4x4:</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">26</th><td class="orig"><span class="expected">+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">27</th><td class="orig"><span class="expected">|O|O|O|O|</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">28</th><td class="orig"><span class="expected">+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">29</th><td class="orig"><span class="expected">| |X| |X|</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">30</th><td class="orig"><span class="expected">+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">31</th><td class="orig"><span class="expected">| | |O| |</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">32</th><td class="orig"><span class="expected">+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">33</th><td class="orig"><span class="expected">| |O| |O|</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">34</th><td class="orig"><span class="expected">+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">35</th><td class="orig"><span class="expected">Is there a winner? Yes</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">36</th><td class="orig"><span class="expected"></span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">37</th><td class="orig"><span class="expected">Grid of size 5x5:</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">38</th><td class="orig"><span class="expected">+-+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">39</th><td class="orig"><span class="expected">|O| | | | |</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">40</th><td class="orig"><span class="expected">+-+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">41</th><td class="orig"><span class="expected">|O| | |X| |</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">42</th><td class="orig"><span class="expected">+-+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">43</th><td class="orig"><span class="expected">| |X|O| | |</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">44</th><td class="orig"><span class="expected">+-+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">45</th><td class="orig"><span class="expected">| | | |O|O|</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">46</th><td class="orig"><span class="expected">+-+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">47</th><td class="orig"><span class="expected">|O| | | | |</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">48</th><td class="orig"><span class="expected">+-+-+-+-+-+</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">49</th><td class="orig"><span class="expected">Is there a winner? No</span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+              <tr>
+                <th class="lineno">50</th><td class="orig"><span class="expected"></span></td>
+                <th class="lineno"></th><td class="missing"></td>
+              </tr>
+
+      </tbody>
+    </table>
+
+    <div id="errors">
+      <h2>Program execution errors</h2>
+
+      <h3>Error description</h3>
+
+      <div id="error_reason">
+        Exited with error code 1
+      </div>
+
+      <h3>Error messages produced during the program execution</h3>
+
+      <table id="stderr">
+              <tr>
+                <td>Exception in thread &quot;main&quot; java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;&lt;parameter1&gt;[&lt;local1&gt;][&lt;local4&gt;]&quot; is null</td>
+              </tr>
+              <tr>
+                <td>	at SuperTicTacToe.hasWinner(SuperTicTacToe.java:20)</td>
+              </tr>
+              <tr>
+                <td>	at Test04.main(Test04.java:13)</td>
+              </tr>
+
+      </table>
+    </div>
+  </body>
+</html>

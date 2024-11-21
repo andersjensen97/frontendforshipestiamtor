@@ -1,0 +1,7 @@
+Vehicle.java:20: error: class Minivan is public, should be declared in a file named Minivan.java
+public class Minivan extends Vehicle {
+       ^
+Vehicle.java:34: error: class Truck is public, should be declared in a file named Truck.java
+public class Truck extends Vehicle {
+       ^
+2 errors

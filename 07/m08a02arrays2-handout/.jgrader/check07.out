@@ -1,0 +1,7 @@
+Array 1:
+    []
+Array 2:
+    []
+Are the arrays equal? Yes
+Are 'arr1' and 'arr2' aliases? No
+Are 'arr1[0]' and 'arr2[0]' aliases? No

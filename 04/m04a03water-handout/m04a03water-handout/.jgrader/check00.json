@@ -1,0 +1,5 @@
+{
+    "name": "Compilation",
+    "compileArgs": ["WaterTemps.java"],
+    "ifFailedSkipRest": true
+}

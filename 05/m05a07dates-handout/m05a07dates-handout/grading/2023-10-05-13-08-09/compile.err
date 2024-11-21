@@ -1,0 +1,6 @@
+Date.java:56: error: cannot find symbol
+            days += daysInYear(year);
+                    ^
+  symbol:   method daysInYear(int)
+  location: class Date
+1 error

@@ -1,0 +1,19 @@
+Vehicle.java:20: error: class Minivan is public, should be declared in a file named Minivan.java
+public class Minivan extends Vehicle {
+       ^
+Vehicle.java:43: error: class Truck is public, should be declared in a file named Truck.java
+public class Truck extends Vehicle {
+       ^
+Vehicle.java:36: error: model has private access in Vehicle
+                "model='" + model + '\'' +
+                            ^
+Vehicle.java:37: error: registrationPlate has private access in Vehicle
+                ", registrationPlate='" + registrationPlate + '\'' +
+                                          ^
+Vehicle.java:59: error: model has private access in Vehicle
+                "model='" + model + '\'' +
+                            ^
+Vehicle.java:60: error: registrationPlate has private access in Vehicle
+                ", registrationPlate='" + registrationPlate + '\'' +
+                                          ^
+6 errors

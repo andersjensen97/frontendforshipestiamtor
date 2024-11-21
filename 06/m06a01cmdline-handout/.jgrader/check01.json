@@ -1,0 +1,4 @@
+{
+    "name": "Command-line arguments test 1",
+    "runArgs": ["UniqueArgs", "foo", "bar"]
+}

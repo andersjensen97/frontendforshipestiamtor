@@ -1,0 +1,4 @@
+Initial array:
+[5, 12, 44, 3, 7]
+Array rotated by 42 positions to the left:
+[44, 3, 7, 5, 12]

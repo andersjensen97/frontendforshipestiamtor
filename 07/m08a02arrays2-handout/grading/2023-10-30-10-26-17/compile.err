@@ -1,0 +1,6 @@
+Test07.java:17: error: cannot find symbol
+        System.out.println(ArrayUtils.areEqual(arr1, arr2) ? "Yes" : "No");
+                                     ^
+  symbol:   method areEqual(int[][],int[][])
+  location: class ArrayUtils
+1 error

@@ -1,0 +1,11 @@
+UniqueArgs.java:14: error: cannot find symbol
+        List<String> sortedArgs = new ArrayList<>(uniqueArgs);
+        ^
+  symbol:   class List
+  location: class UniqueArgs
+UniqueArgs.java:14: error: cannot find symbol
+        List<String> sortedArgs = new ArrayList<>(uniqueArgs);
+                                      ^
+  symbol:   class ArrayList
+  location: class UniqueArgs
+2 errors

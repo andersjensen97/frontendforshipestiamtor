@@ -1,0 +1,5 @@
+{
+    "name": "Compilation",
+    "compileArgs": ["Square.java"],
+    "ifFailedSkipRest": true
+}

@@ -1,0 +1,5 @@
+# These settings override default autograde settings for the course
+general:
+  display_name: 'Video game monsters, part 4' # Mandatory
+  handin_filename: 'Monsters4.zip' # Mandatory
+  handin_contents: ['Monster.java', 'GameUtils.java']

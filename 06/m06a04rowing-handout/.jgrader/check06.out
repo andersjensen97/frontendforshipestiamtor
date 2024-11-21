@@ -1,0 +1,20 @@
+Newly-created boat with one member:
+<Empty seat>
+Bjarne Barfod (age: 19)
+<Empty seat>
+<Empty seat>
+<Empty seat>
+
+Assigning a member to the boat: Bjarne Balling (age: 19)...
+    - Succeeded
+Assigning a member to the boat: Frederik Foss (age: 18)...
+    - Succeeded
+Assigning a member to the boat: Mette Madsen (age: 23)...
+    - Succeeded
+
+Boat with a few members sitting in:
+Bjarne Balling (age: 19)
+Bjarne Barfod (age: 19)
+Frederik Foss (age: 18)
+Mette Madsen (age: 23)
+<Empty seat>

@@ -1,0 +1,4 @@
+# These settings override default autograde settings for the course
+general:
+  display_name: 'Electronic devices shop, version 2' # Mandatory
+  handin_filename: 'Device.java' # Mandatory

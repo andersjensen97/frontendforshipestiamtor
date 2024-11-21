@@ -1,0 +1,16 @@
+WaterTemps.java:7: error: cannot find symbol
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.ENGLISH);
+        ^
+  symbol:   class Scanner
+  location: class WaterTemps
+WaterTemps.java:7: error: cannot find symbol
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.ENGLISH);
+                                                           ^
+  symbol:   variable Locale
+  location: class WaterTemps
+WaterTemps.java:7: error: cannot find symbol
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.ENGLISH);
+                              ^
+  symbol:   class Scanner
+  location: class WaterTemps
+3 errors

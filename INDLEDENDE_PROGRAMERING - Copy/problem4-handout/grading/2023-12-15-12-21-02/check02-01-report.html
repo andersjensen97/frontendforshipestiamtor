@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Report for &ldquo;Movie collection - Task 2 - test 1&rdquo;</title>
+    <style>
+      div#compilationArgs, div#compilationOutput, div#input, div#args, div#stderr {
+        background: lightgray;
+        font-family: "Lucida Console", "Courier New", monospace;
+        line-height: 70%;
+        white-space: pre;
+      }
+      div#errors {
+        background: lightcoral;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div#errors h2 {
+        margin-top: -0.5em;
+      }
+      div#args span.arg {
+        background-color: lightgray;
+      }
+      table#output, table#stderr {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      div#compilationOutput .noCompilationOutput:after, div#input .noinput:after, div#args .noargs:after, div#errors .noerrors:after, div#stderr .noerrors:after {
+        content: "(None)";
+        color: gray;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      table#output tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      table#stderr td {
+        background: lightgray;
+      }
+      table#stderr tbody td {
+        font-family: "Lucida Console", "Courier New", monospace;
+        white-space: pre;
+      }
+      div.hasStdErr {
+        background: yellow;
+        margin-top: 1em;
+        padding: 1em;
+        padding-top: 1em;
+      }
+      div.hasStdErr h2 {
+        margin-top: -0.5em;
+      }
+      th.lineno { color: lightgray; font-weight: normal; font-size: smaller;}
+      td.orig { background: lightgray; }
+      td.different { background: lightcoral; }
+      td.missing { background: lightcoral; }
+      td.missing:after {
+        content: "(Missing line in the program output)";
+        color: darkred;
+        font-style: italic;
+        font-family: serif;
+        font-size: smaller;
+      }
+      td.empty { background: none; }
+      td.equal { background: lightgreen; }
+      span.expected { background-color: gray; }
+      span.produced { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>Report for &ldquo;Movie collection - Task 2 - test 1&rdquo;</h1>
+    <p>
+      <em>2023-12-15 12:21:05</em>
+    </p>
+
+    Overall result:
+    <strong style="background-color: lightgreen; padding: 0.25em;">PASSED</strong>
+    <h2>Arguments passed to javac for compiling</h2>
+    <div id="compilationArgs">
+      <span class="arg">Task02Test01.java</span>
+    </div>
+
+    <h2>Compiler output (warnings and errors)</h2>
+    <div id="compilationOutput">
+      <span class="noCompilationOutput"></span>
+    </div>
+
+    <h2>Arguments passed to Java for running the program (main class name and command-line arguments)</h2>
+    <div id="args">
+      <span class="arg">Task02Test01</span>
+    </div>
+
+    <h2>Program input</h2>
+    <div id="input">
+      <span class="noinput"></span>
+    </div>
+
+    <h2>Program output</h2>
+    <table id="output">
+      <caption>Expected output vs. actual program output</caption>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Expected output</th>
+          <td></td>
+          <th>Program output</th>
+        </tr>
+      </thead>
+      <tbody>
+              <tr>
+                <th class="lineno">1</th><td class="orig">Creating new Movie with title 'Sisu' and opinion 'rad'...</td>
+                <th class="lineno">1</th><td class="equal">Creating new Movie with title 'Sisu' and opinion 'rad'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">2</th><td class="orig">    - OK: title = 'Sisu', opinion = 'rad'</td>
+                <th class="lineno">2</th><td class="equal">    - OK: title = 'Sisu', opinion = 'rad'</td>
+              </tr>
+              <tr>
+                <th class="lineno">3</th><td class="orig">Creating new Movie with title 'The Thing (1982)' and opinion 'wicked'...</td>
+                <th class="lineno">3</th><td class="equal">Creating new Movie with title 'The Thing (1982)' and opinion 'wicked'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">4</th><td class="orig">    - OK: title = 'The Thing (1982)', opinion = 'wicked'</td>
+                <th class="lineno">4</th><td class="equal">    - OK: title = 'The Thing (1982)', opinion = 'wicked'</td>
+              </tr>
+              <tr>
+                <th class="lineno">5</th><td class="orig">Creating new Movie with title 'The Thing (2011)' and opinion 'rotten'...</td>
+                <th class="lineno">5</th><td class="equal">Creating new Movie with title 'The Thing (2011)' and opinion 'rotten'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">6</th><td class="orig">    - OK: title = 'The Thing (2011)', opinion = 'rotten'</td>
+                <th class="lineno">6</th><td class="equal">    - OK: title = 'The Thing (2011)', opinion = 'rotten'</td>
+              </tr>
+              <tr>
+                <th class="lineno">7</th><td class="orig">Creating new Movie with title 'American Sniper' and opinion 'legit'...</td>
+                <th class="lineno">7</th><td class="equal">Creating new Movie with title 'American Sniper' and opinion 'legit'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">8</th><td class="orig">    - OK: title = 'American Sniper', opinion = 'legit'</td>
+                <th class="lineno">8</th><td class="equal">    - OK: title = 'American Sniper', opinion = 'legit'</td>
+              </tr>
+              <tr>
+                <th class="lineno">9</th><td class="orig">Creating new Movie with title 'Dune (1984)' and opinion 'meh'...</td>
+                <th class="lineno">9</th><td class="equal">Creating new Movie with title 'Dune (1984)' and opinion 'meh'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">10</th><td class="orig">    - OK: title = 'Dune (1984)', opinion = 'meh'</td>
+                <th class="lineno">10</th><td class="equal">    - OK: title = 'Dune (1984)', opinion = 'meh'</td>
+              </tr>
+              <tr>
+                <th class="lineno">11</th><td class="orig">Creating new Movie with title 'Dune (2021)' and opinion 'Wicked'...</td>
+                <th class="lineno">11</th><td class="equal">Creating new Movie with title 'Dune (2021)' and opinion 'Wicked'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">12</th><td class="orig">    - Failed! Invalid opinion: 'Wicked'</td>
+                <th class="lineno">12</th><td class="equal">    - Failed! Invalid opinion: 'Wicked'</td>
+              </tr>
+              <tr>
+                <th class="lineno">13</th><td class="orig">Creating new Movie with title 'Galaxy Quest' and opinion 'rad!'...</td>
+                <th class="lineno">13</th><td class="equal">Creating new Movie with title 'Galaxy Quest' and opinion 'rad!'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">14</th><td class="orig">    - Failed! Invalid opinion: 'rad!'</td>
+                <th class="lineno">14</th><td class="equal">    - Failed! Invalid opinion: 'rad!'</td>
+              </tr>
+              <tr>
+                <th class="lineno">15</th><td class="orig">Creating new Movie with title 'Cinderella' and opinion ''...</td>
+                <th class="lineno">15</th><td class="equal">Creating new Movie with title 'Cinderella' and opinion ''...</td>
+              </tr>
+              <tr>
+                <th class="lineno">16</th><td class="orig">    - Failed! Invalid opinion: ''</td>
+                <th class="lineno">16</th><td class="equal">    - Failed! Invalid opinion: ''</td>
+              </tr>
+              <tr>
+                <th class="lineno">17</th><td class="orig">Creating new Movie with title 'Snow White (1937)' and opinion 'null'...</td>
+                <th class="lineno">17</th><td class="equal">Creating new Movie with title 'Snow White (1937)' and opinion 'null'...</td>
+              </tr>
+              <tr>
+                <th class="lineno">18</th><td class="orig">    - Failed! Invalid opinion: 'null'</td>
+                <th class="lineno">18</th><td class="equal">    - Failed! Invalid opinion: 'null'</td>
+              </tr>
+
+      </tbody>
+    </table>
+
+    <div class="">
+      <h2>Warnings and error messages produced during the program execution</h2>
+
+      <div id="stderr">
+        <span class="noerrors"></span>
+      </div>
+    </div>
+  </body>
+</html>

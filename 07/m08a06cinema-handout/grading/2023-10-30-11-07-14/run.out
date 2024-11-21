@@ -1,0 +1,56 @@
+Number of rows: 6
+ - Seats on row 0: 8 (8 available)
+ - Seats on row 1: 10 (10 available)
+ - Seats on row 2: 8 (8 available)
+ - Seats on row 3: 10 (10 available)
+ - Seats on row 4: 8 (8 available)
+ - Seats on row 5: 10 (10 available)
+ - Seats on row 6: 0 (0 available)
+Total number of seats: 54
+
+Seats map:
+........
+..........
+........
+..........
+........
+..........
+
+Total number of available seats: 54
+
+Booking some seats...
+
+Seats map:
+........
+..........
+........
+......X..X
+.....X..
+..........
+
+Total number of available seats: 51
+ - Seats on row 0: 8 (8 available)
+ - Seats on row 1: 10 (10 available)
+ - Seats on row 2: 8 (8 available)
+ - Seats on row 3: 10 (8 available)
+ - Seats on row 4: 8 (7 available)
+ - Seats on row 5: 10 (10 available)
+
+Releasing some seats...
+
+Seats map:
+........
+..........
+........
+..........
+.....X..
+..........
+
+Total number of available seats: 53
+ - Seats on row -1: 0 (0 available)
+ - Seats on row 0: 8 (8 available)
+ - Seats on row 1: 10 (10 available)
+ - Seats on row 2: 8 (8 available)
+ - Seats on row 3: 10 (10 available)
+ - Seats on row 4: 8 (7 available)
+ - Seats on row 5: 10 (10 available)

@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Departure.java",
+    "compileArgs": ["Departure.java"],
+    "ifFailedSkipRest": true
+}

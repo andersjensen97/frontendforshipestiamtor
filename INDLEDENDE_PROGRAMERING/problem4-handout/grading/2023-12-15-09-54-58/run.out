@@ -1,0 +1,40 @@
+Movie 1: 'The Thing (2011)' (opinion: rotten)
+Movie 2: 'Dune (1984)' (opinion: meh)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'The Thing (2011)' (opinion: rotten)
+Movie 2: 'American Sniper' (opinion: legit)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'The Thing (2011)' (opinion: rotten)
+Movie 2: 'Sisu' (opinion: rad)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'The Thing (2011)' (opinion: rotten)
+Movie 2: 'The Thing (1982)' (opinion: wicked)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'Dune (1984)' (opinion: meh)
+Movie 2: 'American Sniper' (opinion: legit)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'Dune (1984)' (opinion: meh)
+Movie 2: 'Sisu' (opinion: rad)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'Dune (1984)' (opinion: meh)
+Movie 2: 'The Thing (1982)' (opinion: wicked)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'American Sniper' (opinion: legit)
+Movie 2: 'Sisu' (opinion: rad)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'American Sniper' (opinion: legit)
+Movie 2: 'The Thing (1982)' (opinion: wicked)
+Movie 1 is better than Movie 2: false
+
+Movie 1: 'Sisu' (opinion: rad)
+Movie 2: 'The Thing (1982)' (opinion: wicked)
+Movie 1 is better than Movie 2: false
+

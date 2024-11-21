@@ -1,0 +1,9 @@
+'Vehicle' is an abstract class: true
+'Vehicle' implements 'getModel()': true
+'Vehicle' implements 'getRegistrationPlate()': true
+'Minivan' extends 'Vehicle': true
+'Minivan' implements 'getModel()': false (the method is inherited)
+'Minivan' implements 'getRegistrationPlate()': false (the method is inherited)
+'Truck' extends 'Vehicle': true
+'Truck' implements 'getModel()': false (the method is inherited)
+'Truck' implements 'getRegistrationPlate()': false (the method is inherited)

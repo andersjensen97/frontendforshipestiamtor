@@ -1,0 +1,10 @@
+'Device' is an abstract class: true
+'Device' implements 'getModel()': true
+'Camera' extends 'Device': true
+'Camera' implements 'getModel()': false (the method is inherited)
+'MusicPlayer' extends 'Device': true
+'MusicPlayer' implements 'getModel()': false (the method is inherited)
+'Featurephone' extends 'Device': true
+'Featurephone' implements 'getModel()': false (the method is inherited)
+'Smartphone' extends 'Device': true
+'Smartphone' implements 'getModel()': false (the method is inherited)

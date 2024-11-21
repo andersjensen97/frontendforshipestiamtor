@@ -1,0 +1,19 @@
+Wumpuses:
+    - Slagstep (wumpus; health: 20)
+    - Horrorface (wumpus; health: 20)
+    - Vileling (wumpus; health: 20)
+Hitting each wumpus...
+Wumpuses now:
+    - Slagstep (wumpus; health: 15)
+    - Horrorface (wumpus; health: 13)
+    - Vileling (wumpus; health: 4)
+Healing each wumpus...
+Wumpuses now:
+    - Slagstep (wumpus; health: 16)
+    - Horrorface (wumpus; health: 20)
+    - Vileling (wumpus; health: 7)
+Burning each wumpus...
+Wumpuses now:
+    - Slagstep (wumpus; health: 0) - DEAD!
+    - Horrorface (wumpus; health: 17)
+    - Vileling (wumpus; health: 4)

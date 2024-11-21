@@ -1,0 +1,5 @@
+{
+    "name": "Compilation of Date.java",
+    "compileArgs": ["Date.java"],
+    "ifFailedSkipRest": true
+}

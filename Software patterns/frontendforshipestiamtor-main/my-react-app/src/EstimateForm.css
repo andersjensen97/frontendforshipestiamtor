@@ -1,0 +1,41 @@
+.estimate-form {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f4ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .input-fields {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .summary-container {
+    flex: 1;
+    background: #fffae6;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .summary-container h4 {
+    margin-bottom: 10px;
+  }
+  
+  .summary-container div {
+    margin: 5px 0;
+  }
+  

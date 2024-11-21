@@ -1,0 +1,8 @@
+'Expression' is an interface: true
+'Constant' implements 'Expression': true
+'BinaryOperation' implements 'Expression': true
+'BinaryOperation' is an abstract class: true
+'Addition' extends 'BinaryOperation': true
+'Subtraction' extends 'BinaryOperation': true
+'Multiplication' extends 'BinaryOperation': true
+'Division' extends 'BinaryOperation': true

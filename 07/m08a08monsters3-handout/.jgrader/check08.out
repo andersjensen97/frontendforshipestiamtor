@@ -1,0 +1,69 @@
+Playground with monsters:
+X.......
+..O.....
+........
+....W.O.
+.....D..
+........
+.......W
+..D.....
+Row 1, column 2: Umbraface (owlbear; health: 59)
+Row 3, column 4: Slagstep (wumpus; health: 20)
+Row 3, column 6: Toxinpest (owlbear; health: 59)
+Row 4, column 5: Chaosscreamer (demogorgon; health: 200)
+Row 6, column 7: Thunderscream (wumpus; health: 20)
+Row 7, column 2: Emberteeth (demogorgon; health: 200)
+
+Player hits while at row 1, column 0 (damage 30)
+
+Updated playground with monsters:
+X.......
+..O.....
+........
+....W.O.
+.....D..
+........
+.......W
+..D.....
+Row 1, column 2: Umbraface (owlbear; health: 59)
+Row 3, column 4: Slagstep (wumpus; health: 20)
+Row 3, column 6: Toxinpest (owlbear; health: 59)
+Row 4, column 5: Chaosscreamer (demogorgon; health: 200)
+Row 6, column 7: Thunderscream (wumpus; health: 20)
+Row 7, column 2: Emberteeth (demogorgon; health: 200)
+
+Player hits while at row 3, column 5 (damage 26)
+
+Updated playground with monsters:
+X.......
+..O.....
+........
+....W.O.
+.....D..
+........
+.......W
+..D.....
+Row 1, column 2: Umbraface (owlbear; health: 59)
+Row 3, column 4: Slagstep (wumpus; health: 0)
+Row 3, column 6: Toxinpest (owlbear; health: 46)
+Row 4, column 5: Chaosscreamer (demogorgon; health: 174)
+Row 6, column 7: Thunderscream (wumpus; health: 20)
+Row 7, column 2: Emberteeth (demogorgon; health: 200)
+
+Player hits while at row 7, column 7 (damage 19)
+
+Updated playground with monsters:
+X.......
+..O.....
+........
+....W.O.
+.....D..
+........
+.......W
+..D.....
+Row 1, column 2: Umbraface (owlbear; health: 59)
+Row 3, column 4: Slagstep (wumpus; health: 0)
+Row 3, column 6: Toxinpest (owlbear; health: 46)
+Row 4, column 5: Chaosscreamer (demogorgon; health: 174)
+Row 6, column 7: Thunderscream (wumpus; health: 1)
+Row 7, column 2: Emberteeth (demogorgon; health: 200)

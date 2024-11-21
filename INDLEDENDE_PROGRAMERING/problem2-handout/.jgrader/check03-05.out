@@ -1,0 +1,102 @@
+Playfield:
+.....
+..#..
+..X##
+..#..
+#....
+
+Game.move(..., "right") returns: false :-(
+The playfield is now:
+.....
+..#..
+..X##
+..#..
+#....
+
+Game.move(..., "down") returns: true :-)
+The playfield is now:
+.....
+..#..
+...##
+..X..
+#.#..
+
+Game.move(..., "down") returns: false :-(
+The playfield is now:
+.....
+..#..
+...##
+..X..
+#.#..
+
+Game.move(..., "right") returns: true :-)
+The playfield is now:
+.....
+..#..
+...##
+...X.
+#.#..
+
+Game.move(..., "down") returns: true :-)
+The playfield is now:
+.....
+..#..
+...##
+.....
+#.#X.
+
+Game.move(..., "left") returns: true :-)
+The playfield is now:
+.....
+..#..
+...##
+.....
+##X..
+
+Game.move(..., "left") returns: false :-(
+The playfield is now:
+.....
+..#..
+...##
+.....
+##X..
+
+Game.move(..., "left") returns: false :-(
+The playfield is now:
+.....
+..#..
+...##
+.....
+##X..
+
+Game.move(..., "up") returns: true :-)
+The playfield is now:
+.....
+..#..
+...##
+..X..
+##...
+
+Game.move(..., "up") returns: true :-)
+The playfield is now:
+.....
+..#..
+..X##
+.....
+##...
+
+Game.move(..., "up") returns: true :-)
+The playfield is now:
+..#..
+..X..
+...##
+.....
+##...
+
+Game.move(..., "up") returns: false :-(
+The playfield is now:
+..#..
+..X..
+...##
+.....
+##...

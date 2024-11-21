@@ -1,0 +1,4 @@
+Date.java:10: error: constructor Date(int,int,int) is already defined in class Date
+    public Date(int year, int month, int day) {
+           ^
+1 error

@@ -1,0 +1,6 @@
+Triangles.java:6: error: cannot find symbol
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.ENGLISH);
+                                                           ^
+  symbol:   variable Locale
+  location: class Triangles
+1 error

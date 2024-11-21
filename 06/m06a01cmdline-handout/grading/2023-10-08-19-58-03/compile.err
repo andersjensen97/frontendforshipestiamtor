@@ -1,0 +1,21 @@
+UniqueArgs.java:15: error: cannot find symbol
+        List<String> sortedArgs = new ArrayList<>(uniqueArgs);
+        ^
+  symbol:   class List
+  location: class UniqueArgs
+UniqueArgs.java:15: error: cannot find symbol
+        List<String> sortedArgs = new ArrayList<>(uniqueArgs);
+                                      ^
+  symbol:   class ArrayList
+  location: class UniqueArgs
+UniqueArgs.java:20: error: cannot find symbol
+                return args.indexOf(o1) - args.indexOf(o2);
+                           ^
+  symbol:   method indexOf(String)
+  location: variable args of type String[]
+UniqueArgs.java:20: error: cannot find symbol
+                return args.indexOf(o1) - args.indexOf(o2);
+                                              ^
+  symbol:   method indexOf(String)
+  location: variable args of type String[]
+4 errors
