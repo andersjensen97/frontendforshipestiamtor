@@ -1,84 +1,52 @@
 import React, { useEffect, useState } from 'react';
+import { fetchData } from './api';
 
-function getData() {
-  
-  const [Cargo, setCargo] = useState([]);
-  const [Estimate, setEstimate] = useState([]);
-  const [Port, setPort] = useState([]);
-  const [Vessel, setVessel] = useState([]);
+const getData = () => {
+  const [cargo, setCargo] = useState([]);
 
   useEffect(() => {
-    fetch('/localhost/searoutesapi/Cargo')
-    .then((response) => {
-      if (!response.ok) {
-          throw new Error('Network response was not ok');
+    const fetchCargoData = async () => {
+      try {
+        const data = await fetchData('departure', 'arrival', 'vesselType', 'weight');
+        setCargo(data);
+      } catch (error) {
+        console.error('Error:', error);
       }
-      return response.json();
-  })
-  .then((data) => {
-      setCargo(data);
-  })
-  .catch((error) => {
-      console.error('There was a problem with the fetch operation:', error);
-  });
+    };
+
+    fetchCargoData();
   }, []);
 
-  useEffect(() => {
-    fetch('/localhost/searoutesapi/Estimate')
-    .then((response) => {
-      if (!response.ok) {
-          throw new Error('Network response was not ok');
-      }
-      return response.json();
-  })
-  .then((data) => {
-      setEstimate(data);
-  })
-  .catch((error) => {
-      console.error('There was a problem with the fetch operation:', error);
-  });
-  }, []);
-
-  useEffect(() => {
-    fetch('/localhost/searoutesapi/Port')
-    .then((response) => {
-      if (!response.ok) {
-          throw new Error('Network response was not ok');
-      }
-      return response.json();
-  })
-  .then((data) => {
-      setPort(data);
-  })
-  .catch((error) => {
-      console.error('There was a problem with the fetch operation:', error);
-  });
-  }, []);
-
-  useEffect(() => {
-    fetch('/localhost/searoutesapi/Vessel')
-    .then((response) => {
-      if (!response.ok) {
-          throw new Error('Network response was not ok');
-      }
-      return response.json();
-  })
-  .then((data) => {
-      setVessel(data);
-  })
-  .catch((error) => {
-      console.error('There was a problem with the fetch operation:', error);
-  });
-  }, []);
-}
   return (
     <div>
-        <h1>Routes</h1>
-          <ul>
-          {Cargo.map((Cargo) => (<li key={Cargo.id}>{Cargo.name}</li>))}
-          </ul>
-        
-      
+      <h1>Routes</h1>
+      <ul>
+        {cargo.map((item) => (
+          <li key={item.id}>{item.name}</li>
+        ))}
+      </ul>
     </div>
   );
+};
+
 export default getData;
+
+// src/services/api.js
+export const fetchData = async (departure, arrival, vesselType, weight) => {
+  try {
+    const response = await fetch(`http://localhost:8080/api/shipping/calculate?departure=${encodeURIComponent(departure)}&arrival=${encodeURIComponent(arrival)}&vesselType=${encodeURIComponent(vesselType)}&weight=${encodeURIComponent(weight)}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    if (!response.ok) {
+      throw new Error(`Network response was not ok: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
