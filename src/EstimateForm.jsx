@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box, Typography, Select, MenuItem, FormControl, InputLabel, TextField } from '@mui/material';
 import useGetDistance from './hooks/getDistance';
 import useGetPorts from './hooks/getPorts';
@@ -6,12 +6,36 @@ import useGetFuelCost from './hooks/getFuelCost';
 import useGetCargoCost from './hooks/getCargoCost';
 import useGetBrokerCommission from './hooks/getBrokerCommission';
 import useGetAddressCommission from './hooks/getAddressCommission';
+import Map  from './components/Map';
 
 const EstimateForm = () => {
   const { data: portsData, isLoading: portsLoading } = useGetPorts();
 
   const [departurePort, setDeparturePort] = useState('');
   const [arrivalPort, setArrivalPort] = useState('');
+
+  const [selectedDeparturePort, setSelectedDeparturePort] = useState(null);
+  const [selectedArrivalPort, setSelectedArrivalPort] = useState(null);
+  
+  // UseEffect to set selected departure port
+  useEffect(() => {
+    if (portsData && departurePort) {
+      const port = portsData.find((p) => p.name === departurePort);
+      setSelectedDeparturePort(port);
+    } else {
+      setSelectedDeparturePort(null);
+    }
+  }, [portsData, departurePort]);
+
+  // UseEffect to set selected arrival port
+  useEffect(() => {
+    if (portsData && arrivalPort) {
+      const port = portsData.find((p) => p.name === arrivalPort);      
+      setSelectedArrivalPort(port);
+    } else {
+      setSelectedArrivalPort(null);
+    }
+  }, [portsData, arrivalPort]);
 
   const [cargoAmount, setCargoAmount] = useState('');
   const [cargoPrice, setCargoPrice] = useState('');
@@ -253,8 +277,15 @@ const EstimateForm = () => {
         </div>
 
         {/* Map Section */}
-        <Box className="h-64 bg-gray-300 rounded-lg flex items-center justify-center">
-          <Typography variant="h6" className="text-gray-500">Map</Typography>
+        <Box className="h-64 mt-10 bg-gray-300 rounded-lg flex items-center justify-center">
+          <Map 
+          departurePortName={selectedDeparturePort?.name}
+          departurePortLongitude={selectedDeparturePort?.longitude}
+          departurePortLatitude={selectedDeparturePort?.latitude}
+          arrivalPortName={selectedArrivalPort?.name}
+          arrivalPortLongitude={selectedArrivalPort?.longitude}
+          arrivalPortLatitude={selectedArrivalPort?.latitude}
+          />
         </Box>
       </div>
     </div>
