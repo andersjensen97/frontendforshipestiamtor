@@ -1,4 +1,4 @@
-import EstimateForm from './EstimateForm.js';
+import EstimateForm from './EstimateForm.jsx';
 import './App.css';
 
 function App() {
